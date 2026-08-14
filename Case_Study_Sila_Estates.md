@@ -287,25 +287,6 @@ ClickUp CRM Sync (update custom fields & chatter transcript)
 
 ---
 
-## Technical Challenges
-
-### Problem
-Mermaid subgraphs overlapped with top nodes when HTML formatting tags (`<font size="5">`) were used in subgraph titles.
-
-### Root Cause
-Mermaid's Dagre layout engine miscalculated the height of the subgraph title box when HTML font size tags were present, positioning nodes directly over the title.
-
-### Solution
-Removed inline HTML sizing from subgraph titles and adjusted global Mermaid configurations:
-```mermaid
-%%{init: { 'flowchart': { 'nodeSpacing': 25, 'rankSpacing': 35 } }}%%
-```
-
-### Result
- Mermaid rendered clean, legible subgraphs with proper spacing and zero title overlap.
-
----
-
 ## Key Engineering Decisions
 
 * **Why Supabase over spreadsheets?** Supabase provides real-time PostgreSQL listeners, relational database integrity (joining leads to rooms by advert number), and fast transaction execution.
@@ -388,20 +369,37 @@ Automating lead capturing and nurturing processes ensures that inquiries are add
 
 
 ---
+---
 
-## ?? Interested in a Similar System?
+## Interested in a Similar System?
 
-> Want to build something like this? Let's talk.
+Want to build something like this? Let's talk.
 
 Whether you want to:
-- ?? **Replicate this exact system** for your own business
-- ??? **Build a custom automation** tailored to your workflow
-- ?? **Discuss how AI automation** can solve your specific problem
+- Replicate this exact system for your own business
+- Build a custom automation tailored to your workflow
+- Discuss how AI automation can solve your specific problem
 
-**Feel free to reach out � I'd love to help.**
+**Feel free to reach out — I would love to help.**
 
 [![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](http://linkedin.com/in/aina-asim-659b67369)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AinaAsim)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp_Me-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/923206455471)
 
-?? **WhatsApp:** +92 320 6455471  
-?? **LinkedIn:** [Aina Asim](http://linkedin.com/in/aina-asim-659b67369)
+**WhatsApp:** +92 320 6455471
+**LinkedIn:** [Aina Asim](http://linkedin.com/in/aina-asim-659b67369)
+**GitHub:** [github.com/AinaAsim](https://github.com/AinaAsim)
+
+---
+
+## Workflow Files — Confidential
+
+The n8n workflow JSON for this project is **not published** and is kept private for security purposes.
+
+This includes protecting:
+- Real business logic and internal process flows
+- Live API endpoint configurations
+- Actual database schemas and credentials
+- Client data and proprietary automation architecture
+
+> This is a production system. Workflow internals are intentionally kept confidential to maintain security and client trust.
