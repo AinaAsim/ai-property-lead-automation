@@ -1,4 +1,4 @@
-# AI-Powered Lead Nurturing & CRM Sync Platform
+# Spareroom AI-Powered Lead Nurturing & CRM Sync Platform
 
 ![n8n](https://img.shields.io/badge/n8n-Workflow%20Automation-FF6D5A?style=for-the-badge&logo=n8n&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
